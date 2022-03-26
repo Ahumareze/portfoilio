@@ -37,20 +37,20 @@ const Header = () => {
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
-        <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+        <Avatar className={classes.avatar} src={avatar} alt="Ifeanyi Ahumareze" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Mahmudul Alam"]} typeSpeed={40} />
+        <Typed strings={["Ahumareze Ifeanyi"]} typeSpeed={400} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "Frontend Developer",
-            "Backend Developer",
+            "UI/UX Designer",
+            "Front End Developer",
             "Native App Developer",
           ]}
-          typeSpeed={40}
+          typeSpeed={5}
           backSpeed={50}
           loop
         />
