@@ -33,26 +33,36 @@ const projects = [
     name: "Panda Pay (Web version)",
     description: `Panda Pay is a multi-currency money transfer web application that not only allows it's users to save money in different currencies but to also transfer different currencies to other users. This project was built with React typescript`,
     image: project1,
+    sourceCode: '',
+    link: 'https:pandapay.netlify.app'
   },
   {
     name: "Safe Ng",
     description: `Safe is a social network that allows users to visit and share information about crimes happening in their area to keep other citizens informed and safe. This project was built with React typescript`,
     image: project2,
+    sourceCode: '',
+    link: 'https:safeng.netlify.app'
   },
   {
     name: "Elite Corp Investment",
     description: `Elite corp is an investment web application for a firm in Worcester, USA. This site helps investors as it provides them with 24/7 live updates on their investments, crypto charts and other anlysis tools. This project was built with React Js`,
     image: project3,
+    sourceCode: '',
+    link: 'https:elitecorpinvestment.org'
   },
   {
     name: "Panda Pay-v2 (Mobile version)",
     description: `The panda pay-v2 is quite different from the first version. The panda pay-v2 is a mobile app that helps users transfer money, and also uses NFTs to represent the number of transfers a user has made. Extra features includes (QrCode scanner, crypto currency purchase store, e.t.c). This project was built with React native typescript`,
     image: project4,
+    sourceCode: '',
+    link: ''
   },
   {
     name: "NBA G.O.A.T ",
     description: `Nba goat is a chrome extension that allows you to check up on your favourite players, teams and games in real time. (nb: this project is still in development and is expected to be finished by April 14th)`,
     image: project5,
+    sourceCode: '',
+    link: ''
   }
 ];
 
@@ -83,9 +93,9 @@ const Portfolio = () => {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
+                  Source code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" onClick={() => window.location.assign(project.link)} >
                   Live Demo
                 </Button>
               </CardActions>
