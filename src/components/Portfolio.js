@@ -30,53 +30,30 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Panda Pay (Web version)",
+    description: `Panda Pay is a multi-currency money transfer web application that not only allows it's users to save money in different currencies but to also transfer different currencies to other users. This project was built with React typescript`,
     image: project1,
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Safe Ng",
+    description: `Safe is a social network that allows users to visit and share information about crimes happening in their area to keep other citizens informed and safe. This project was built with React typescript`,
     image: project2,
   },
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Elite Corp Investment",
+    description: `Elite corp is an investment web application for a firm in Worcester, USA. This site helps investors as it provides them with 24/7 live updates on their investments, crypto charts and other anlysis tools. This project was built with React Js`,
     image: project3,
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Panda Pay-v2 (Mobile version)",
+    description: `The panda pay-v2 is quite different from the first version. The panda pay-v2 is a mobile app that helps users transfer money, and also uses NFTs to represent the number of transfers a user has made. Extra features includes (QrCode scanner, crypto currency purchase store, e.t.c). This project was built with React native typescript`,
     image: project4,
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "NBA G.O.A.T ",
+    description: `Nba goat is a chrome extension that allows you to check up on your favourite players, teams and games in real time. (nb: this project is still in development and is expected to be finished by April 14th)`,
     image: project5,
-  },
-  {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
-  },
+  }
 ];
 
 const Portfolio = () => {
