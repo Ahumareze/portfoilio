@@ -33,29 +33,29 @@ const projects = [
     name: "Panda Pay (Web version)",
     description: `Panda Pay is a multi-currency money transfer web application that not only allows it's users to save money in different currencies but to also transfer different currencies to other users. This project was built with React typescript`,
     image: project1,
-    sourceCode: '',
+    sourceCode: 'https://github.com/Ahumareze/PandaPay',
     link: 'https:pandapay.netlify.app'
   },
   {
     name: "Safe Ng",
     description: `Safe is a social network that allows users to visit and share information about crimes happening in their area to keep other citizens informed and safe. This project was built with React typescript`,
     image: project2,
-    sourceCode: '',
+    sourceCode: 'https://github.com/Ahumareze/Safe.NG',
     link: 'https:safeng.netlify.app'
   },
   {
     name: "Elite Corp Investment",
     description: `Elite corp is an investment web application for a firm in Worcester, USA. This site helps investors as it provides them with 24/7 live updates on their investments, crypto charts and other anlysis tools. This project was built with React Js`,
     image: project3,
-    sourceCode: '',
+    sourceCode: 'https://github.com/Ahumareze/elitecorpinvestment',
     link: 'https:elitecorpinvestment.org'
   },
   {
     name: "Panda Pay-v2 (Mobile version)",
     description: `The panda pay-v2 is quite different from the first version. The panda pay-v2 is a mobile app that helps users transfer money, and also uses NFTs to represent the number of transfers a user has made. Extra features includes (QrCode scanner, crypto currency purchase store, e.t.c). This project was built with React native typescript`,
     image: project4,
-    sourceCode: '',
-    link: ''
+    sourceCode: 'https://github.com/Ahumareze/PandaPay-mobile',
+    link: 'https://github.com/Ahumareze/PandaPay-mobile'
   },
   {
     name: "NBA G.O.A.T ",
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" onClick={() => window.location.assign(project.sourceCode)}>
                   Source code
                 </Button>
                 <Button size="small" color="primary" onClick={() => window.location.assign(project.link)} >
