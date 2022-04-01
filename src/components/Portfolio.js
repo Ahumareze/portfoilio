@@ -10,12 +10,11 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+import project1 from "../images/panda-pay-web.JPG";
+import project2 from "../images/safe.JPG";
+import project3 from "../images/elite-corp.JPG";
+import project4 from "../images/panda-pay.png";
+import project5 from "../images/nba.jpg";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
