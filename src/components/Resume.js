@@ -167,7 +167,7 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             I worked as a freelance web / native app developer.
-            During this process I was able to work on an online management system for a bakery in Delta state, and also help maintain the website for an investment firm in Lagos state.
+            During this process I was able to work on an online management system for a bakery in Delta state, and also help maintain the website for an investment firm in Worcester, USA.
           </Typography>
         </Box>
       </Box>
